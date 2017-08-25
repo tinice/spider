@@ -1,4 +1,7 @@
 # -*- coding:utf-8 -*-
+'''
+对集合进行增删查改
+'''
 from Urlmanager import urlmanger
 a = urlmanger.Uulmanger()
 
