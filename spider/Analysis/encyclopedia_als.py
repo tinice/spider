@@ -52,7 +52,7 @@ def brief_introduction(html):
 
 
 def main():
-    process.Process(get_dict, 'encyclopedia_html', brief_introduction)
+    process.Process(get_dict, 40, 'encyclopedia_html', brief_introduction)
     # process.Process(brief_introduction, 'encyclopedia_html')
 
 

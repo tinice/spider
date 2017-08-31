@@ -7,7 +7,7 @@ from multiprocessing import Pool
 r = Redis(ip)
 
 
-def Process(tar, name, tar2=None, tar3=None, tar4=None):
+def Process(tar, name, processes, tar2=None, tar3=None, tar4=None):
     '''
     多进程
     :param tar:
@@ -17,7 +17,7 @@ def Process(tar, name, tar2=None, tar3=None, tar4=None):
     :param tar4:
     :return:
     '''
-    p = Pool(processes=20)  # 进程池，最大进程数20
+    p = Pool(processes=processes)  # 进程池，最大进程数20
     for i in range(100000):
         kw = r.spop(name)
         if kw == None:

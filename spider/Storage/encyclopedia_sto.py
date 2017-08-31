@@ -21,8 +21,8 @@ def storage2(brief_info):
 
 
 def main():
-    process.Process(storage1, 'encyclopedia_base_info')
-    process.Process(storage2, 'encyclopedia_brief_info')
+    process.Process(storage1, 40, 'encyclopedia_base_info')
+    process.Process(storage2, 40, 'encyclopedia_brief_info')
 
 
 if __name__ == '__main__':

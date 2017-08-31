@@ -28,7 +28,6 @@ class Xiaobing:
             return 'send requests fail'
 
     def receive(self, msg):
-
         send_result = self.send(msg)
         if send_result == 'send requests fail':
             return send_result
