@@ -16,7 +16,7 @@ def get_html(url):
 
 
 def main():
-    process.Process(get_html, 100, 'encyclopedia_url')
+    process.Process(get_html, 120, 'encyclopedia_url')
 
 
 if __name__ == '__main__':

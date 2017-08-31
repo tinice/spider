@@ -7,7 +7,7 @@ from multiprocessing import Pool
 r = Redis(ip)
 
 
-def Process(tar, name, processes, tar2=None, tar3=None, tar4=None):
+def Process(tar, processes, name, tar2=None, tar3=None, tar4=None):
     '''
     多进程
     :param tar:
