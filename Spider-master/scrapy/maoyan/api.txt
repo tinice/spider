@@ -1,0 +1,18 @@
+获取电影列表：
+cityId 城市
+limit 一次获取数量
+offset 当前获取
+catId 按目录，-1为所有，3为爱情，2为喜剧，4为动画，1为剧情，6为恐怖，7为惊悚，10为科幻，5为动作，8为悬疑，11为犯罪，9为冒险，12为战争，14为奇幻，15为运动，16为家庭，17为古装，18为武侠，19为西部，20为历史，21为传记，22为情色，23为歌舞，24为黑色影片，25为短片，13为纪录片，100为其他。
+yearId 按年，0为所有，1为更早，2为70年代，3为80年代，4为90年代，5为2000-2010，6为2011，7为2012，8为2013，9为2014,10为2015，11为2016，12为2017，13为2017以后。
+sourceId为地区，-1为全部，2为中国大陆，3为美国，7为韩国，6为日本，10为中国香港，13为中国台湾，9为泰国，8为印度，4为法国，5为英国，14为俄罗斯，16为意大利，17为西班牙，11为德国，19为波兰，20为澳大利亚，21为伊朗，100为其他
+sortId排序，3为好评，2为最新，1为热门
+
+获取电影详情
+详情：
+http://api.maoyan.com/mmdb/movie/v5/267.json?token=&refer=&utm_campaign=AmovieBmovieCD-1&movieBundleVersion=7911&utm_source=Oppo&utm_medium=android&utm_term=7.9.1&utm_content=860046034572018&ci=30&net=255&dModel=ONEPLUS%20A3000&uuid=3957877BBCA515101B23ABC3B14C92D2364184F6E53440B4AC51D7A07F1A66C0&lat=22.517843&lng=113.927976&__reqTraceID=519470914881819620&refer=%2FMovieTagActivity&__skck=6a375bce8c66a0dc293860dfa83833ef&__skts=1494637825320&__skua=32bcf146c756ecefe7535b95816908e3&__skno=a855cdd2-0975-41b0-aa63-f91acc7ce38e&__skcy=C5QOhbdRTEFABUIkYMeh%2BK7ePk8%3D
+评论：
+GET /mmdb/comments/movie/v2/1203.json?tag=0&startTime=0&offset=0&limit=15&token=&utm_campaign=AmovieBmovieCD-1&movieBundleVersion=7911&utm_source=Oppo&utm_medium=android&utm_term=7.9.1&utm_content=860046034572018&ci=30&net=255&dModel=ONEPLUS%20A3000&uuid=3957877BBCA515101B23ABC3B14C92D2364184F6E53440B4AC51D7A07F1A66C0&lat=22.517843&lng=113.927976&__reqTraceID=-7319265801236071811&refer=
+导演、演员信息：
+http://api.maoyan.com/mmdb/v7/movie/267/celebrities.json?subjectType=0&utm_campaign=AmovieBmovieCD-1&movieBundleVersion=7911&utm_source=Oppo&utm_medium=android&utm_term=7.9.1&utm_content=860046034572018&ci=30&net=255&dModel=ONEPLUS%20A3000&uuid=3957877BBCA515101B23ABC3B14C92D2364184F6E53440B4AC51D7A07F1A66C0&lat=22.517843&lng=113.927976&__reqTraceID=-3464600575337417693&refer=%2FMovieTagActivity&__skck=6a375bce8c66a0dc293860dfa83833ef&__skts=1494637826143&__skua=32bcf146c756ecefe7535b95816908e3&__skno=8dca2ceb-2b14-47b8-881f-9fc82d630e89&__skcy=PvDgzfIV8EmXuKLI2luMRsDtsNo%3D
+票房：
+http://api.maoyan.com/mmdb/movie/345672/feature/v1/mbox.json?utm_campaign=AmovieBmovieCD-1&movieBundleVersion=7911&utm_source=Oppo&utm_medium=android&utm_term=7.9.1&utm_content=860046034572018&ci=30&net=255&dModel=ONEPLUS%20A3000&uuid=3957877BBCA515101B23ABC3B14C92D2364184F6E53440B4AC51D7A07F1A66C0&lat=22.517843&lng=113.927976&__reqTraceID=-9094492648072495114&refer=%2FMovieTagActivity&__skck=6a375bce8c66a0dc293860dfa83833ef&__skts=1494638077644&__skua=32bcf146c756ecefe7535b95816908e3&__skno=202e7b60-3177-49d5-992d-1a17b013da46&__skcy=jQqZCtxu6urqeW786RBHMfbGyaM%3D
